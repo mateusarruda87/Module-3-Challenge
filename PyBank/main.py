@@ -8,6 +8,7 @@ profit_losses = []
 profit = []
 txt_file = []
 
+# Define a function to print all results on Terminal and .txt file
 def new_print(results):
     print(results)
     txt_file.append(str(results))
