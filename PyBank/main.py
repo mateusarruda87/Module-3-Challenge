@@ -57,6 +57,6 @@ with open(budget_data_csv) as csv_file:
     new_print("Gratest Increase in Profits: " + min_date + " ($" + str(min(profit)) + ")")
 
 # Export a text file with the results
-output_file = os.path.join("PyBank_results.txt")
+output_file = os.path.join("Analysis", "PyBank_results.txt")
 with open(output_file,"w") as results:
     results.writelines('\n'.join(txt_file))
