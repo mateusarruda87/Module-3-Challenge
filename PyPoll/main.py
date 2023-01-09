@@ -1,7 +1,6 @@
 # Import modules/libraries/dependencies
 import csv
 import os
-import pandas as pd
 
 # Lists to store data
 txt_file =[]
